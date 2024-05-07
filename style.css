@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.formcontainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#taskname, #desc, #deadline{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.btnsubmit{
+    background: green;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 4px;
+}
+
+.btnsubmit:hover{
+    background-color: rgb(16, 168, 16);
+    cursor: pointer;
+}

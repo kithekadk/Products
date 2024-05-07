@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>TodoList</h1>
+    </div>
+    <div class="formcontainer">
+        <form id="createTodoForm">
+            <div>
+                <label for="">Task name</label><br>
+                <input type="text" name="taskname" id="taskname">
+            </div>
+            <div>
+                <label for="">Task description</label><br>
+                <input type="text" name="description" id="desc">
+            </div>
+            <div>
+                <label for="">Task deadline</label><br>
+                <input type="date" name="deadline" id="deadline">
+            </div>
+            <div>
+                <button type="submit" class="btnsubmit">Create task</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="todosContainer">
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
